@@ -335,7 +335,6 @@ def _is_punctuation(char):
 try:
     from byte_seg import parse
 except ImportError as e:
-    print("导入包错误, 参考 https://wiki.bytedance.net/pages/viewpage.action?pageId=269509671 安装依赖")
     raise e
 
 import random
